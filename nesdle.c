@@ -31,7 +31,7 @@ void main(void)
 		{
 			// infinite loop
 			ppu_wait_nmi(); // wait till beginning of the frame
-			multi_vram_buffer_horz("NES WORDLE", 10, NTADR_A(10, 10));
+			multi_vram_buffer_horz("NES.DLE", 7, NTADR_A(10, 10));
 			multi_vram_buffer_horz("Press Start to Play", 19, NTADR_A(7, 16));
 
 			pad1 = pad_poll(0); // read the first controller

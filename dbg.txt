@@ -6,7 +6,7 @@ file	id=2,name="LIB/neslib.s",size=14968,mtime=0x61FA8E9C,mod=0
 file	id=3,name="LIB/nesdoug.s",size=11644,mtime=0x61FA8E9C,mod=0
 file	id=4,name="MUSIC/famitone2.s",size=27594,mtime=0x61FA8E9C,mod=0
 file	id=5,name="nesdle.chr",size=8192,mtime=0x635E72DC,mod=0
-file	id=6,name="nesdle.s",size=46147,mtime=0x635F0468,mod=1
+file	id=6,name="nesdle.s",size=46131,mtime=0x635F04D6,mod=1
 file	id=7,name="/usr/local/Cellar/cc65/2.19/share/cc65/asminc/longbranch.mac",size=2632,mtime=0x5ED2ADF3,mod=1
 file	id=8,name="/private/tmp/cc65-20211029-72602-uqb2uc/cc65-2.19/asminc/cpu.mac",size=843,mtime=0x5ED2ADF3,mod=4+5+6
 file	id=9,name="/private/tmp/cc65-20211029-72602-uqb2uc/cc65-2.19/asminc/zeropage.inc",size=721,mtime=0x5ED2ADF3,mod=8
@@ -4206,9 +4206,9 @@ mod	id=6,name="pusha.o",file=14,lib=0
 mod	id=7,name="zerobss.o",file=15,lib=0
 mod	id=8,name="zeropage.o",file=16,lib=0
 seg	id=0,name="CODE",start=0x0086E8,size=0x1498,addrsize=absolute,type=ro,oname="nesdle.nes",ooffs=1784
-seg	id=1,name="RODATA",start=0x009B80,size=0x005C,addrsize=absolute,type=ro,oname="nesdle.nes",ooffs=7056
+seg	id=1,name="RODATA",start=0x009B80,size=0x0059,addrsize=absolute,type=ro,oname="nesdle.nes",ooffs=7056
 seg	id=2,name="BSS",start=0x000305,size=0x0000,addrsize=absolute,type=rw
-seg	id=3,name="DATA",start=0x000300,size=0x0005,addrsize=absolute,type=rw,oname="nesdle.nes",ooffs=7148
+seg	id=3,name="DATA",start=0x000300,size=0x0005,addrsize=absolute,type=rw,oname="nesdle.nes",ooffs=7145
 seg	id=4,name="ZEROPAGE",start=0x000000,size=0x00A8,addrsize=zeropage,type=rw
 seg	id=5,name="NULL",start=0x000000,size=0x0000,addrsize=absolute,type=rw
 seg	id=6,name="HEADER",start=0x000000,size=0x0010,addrsize=absolute,type=ro,oname="nesdle.nes",ooffs=0

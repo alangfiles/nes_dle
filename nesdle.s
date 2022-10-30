@@ -191,7 +191,7 @@ L0046:
 	.byte	$50,$72,$65,$73,$73,$20,$53,$74,$61,$72,$74,$20,$74,$6F,$20,$50
 	.byte	$6C,$61,$79,$00
 L003C:
-	.byte	$4E,$45,$53,$20,$57,$4F,$52,$44,$4C,$45,$00
+	.byte	$4E,$45,$53,$2E,$44,$4C,$45,$00
 
 .segment	"BSS"
 
@@ -2819,7 +2819,7 @@ L04C6:	lda     _game_mode
 ;
 	jsr     _ppu_wait_nmi
 ;
-; multi_vram_buffer_horz("NES WORDLE", 10, NTADR_A(10, 10));
+; multi_vram_buffer_horz("NES.DLE", 7, NTADR_A(10, 10));
 ;
 	jsr     decsp3
 	lda     #<(L003C)
@@ -2828,7 +2828,7 @@ L04C6:	lda     _game_mode
 	iny
 	lda     #>(L003C)
 	sta     (sp),y
-	lda     #$0A
+	lda     #$07
 	ldy     #$00
 	sta     (sp),y
 	ldx     #$21
